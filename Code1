@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>123456</title>
+</head>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="C:\Users\user\Desktop\Html Site\style.css">
+</head>
+<head>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v9.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="112929017300107"
+theme_color="#0A7CFF"
+logged_in_greeting="გამარჯობა, რით შეგვიძლია დაგეხმაროთ?"
+logged_out_greeting="გამარჯობა, რით შეგვიძლია დაგეხმაროთ?">
+    </div>
+</head>
+<body>
+    <div class="container">
+        <h2>CSS Skills Bar UI Design</h2>
+        <div class="Skills">
+            <span class="Name">Html</span>
+            <div class="percent">
+                <div class="progress">
+            </div>
+            <span class="Value">95%</span>
+        </div>
+    </div>    
+</body>
+</html>
